@@ -39,8 +39,15 @@ function About() {
 
       <section className="py-20 md:py-28 bg-ivory">
         <div className="container-luxe grid md:grid-cols-2 gap-16 items-center">
-          <motion.div {...fade} className="aspect-[3/4] overflow-hidden bg-cream">
-            <img src={images.maternity1.url} alt="" className="w-full h-full object-cover" />
+          <motion.div {...fade} className="aspect-[3/4] bg-cream border border-border relative overflow-hidden flex items-center justify-center">
+            <div className="absolute inset-6 border border-rosegold/50" />
+            <div className="relative text-center px-8">
+              <div className="w-28 h-28 rounded-full bg-gradient-rosegold mx-auto mb-8 flex items-center justify-center text-ivory font-display text-5xl shadow-luxe">MK</div>
+              <p className="font-script text-4xl text-rosegold-deep mb-2">Mounika Konda</p>
+              <p className="eyebrow">Founder · Photographer</p>
+              <p className="hairline w-12 mx-auto my-6" />
+              <p className="text-[0.65rem] text-muted-foreground tracking-[0.3em] uppercase">Portrait coming soon</p>
+            </div>
           </motion.div>
           <motion.div {...fade}>
             <p className="eyebrow mb-6">More Than Photography</p>
