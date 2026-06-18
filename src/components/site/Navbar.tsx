@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Instagram, Menu, X } from "lucide-react";
-import logo from "@/assets/tinytoes-logo.png.asset.json";
+import { BrandMark } from "@/components/site/BrandMark";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -24,12 +24,12 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-ivory/85 backdrop-blur-md border-b border-border/60" : "bg-transparent"
+        scrolled ? "bg-ivory/90 backdrop-blur-md border-b border-border/60" : "bg-ivory/70 backdrop-blur-sm"
       }`}
     >
       <div className="container-luxe flex items-center justify-between py-4 md:py-5">
-        <Link to="/" className="flex items-center gap-3 shrink-0">
-          <img src={logo.url} alt="TinyToes Photography" className="h-12 md:h-14 w-auto" />
+        <Link to="/" className="shrink-0" aria-label="TinyToes Photography Studio — Home">
+          <BrandMark />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowRight, Instagram, MessageCircle, Quote, Star } from "lucide-react";
-import { CinematicCamera } from "@/components/site/CinematicCamera";
+import { LuxuryHero } from "@/components/site/LuxuryHero";
 import { images, gallery } from "@/lib/images";
 
 export const Route = createFileRoute("/")({
@@ -27,7 +27,7 @@ const fadeUp = {
 function Home() {
   return (
     <>
-      <CinematicCamera />
+      <LuxuryHero />
 
       {/* MATERNITY STORYTELLING */}
       <section id="story" className="py-32 md:py-48 bg-ivory">
