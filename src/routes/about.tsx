@@ -37,7 +37,7 @@ function About() {
         </div>
       </section>
 
-      <section className="py-20 md:py-28 bg-ivory">
+      <section className="py-14 md:py-20 bg-ivory">
         <div className="container-luxe grid md:grid-cols-2 gap-16 items-center">
           <motion.div {...fade} className="aspect-[3/4] bg-cream border border-border relative overflow-hidden flex items-center justify-center">
             <div className="absolute inset-6 border border-rosegold/50" />
@@ -62,7 +62,7 @@ function About() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-cream">
+      <section className="py-16 md:py-24 bg-cream">
         <div className="container-luxe max-w-3xl text-center">
           <motion.p {...fade} className="eyebrow mb-6">A Mother's Perspective</motion.p>
           <motion.blockquote {...fade} className="font-display text-3xl md:text-5xl italic leading-[1.2]">
@@ -75,7 +75,7 @@ function About() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-ivory">
+      <section className="py-16 md:py-24 bg-ivory">
         <div className="container-luxe grid md:grid-cols-3 gap-px bg-border">
           {[
             { t: "Safety", d: "Newborns are carefully wrapped and supported. Every pose is composite-safe and gentle." },
@@ -91,7 +91,7 @@ function About() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-ivory">
+      <section className="py-16 md:py-24 bg-ivory">
         <div className="container-luxe grid md:grid-cols-[1.2fr_1fr] gap-16 items-center">
           <motion.div {...fade}>
             <p className="eyebrow mb-6">The Heart Behind TinyToes</p>
@@ -109,7 +109,7 @@ function About() {
         </div>
       </section>
 
-      <section className="py-32 bg-cream text-center">
+      <section className="py-20 bg-cream text-center">
         <div className="container-luxe">
           <p className="font-script text-5xl md:text-7xl text-rosegold-deep mb-4">With love,</p>
           <p className="font-display text-3xl md:text-4xl mb-2">Mounika Konda</p>
