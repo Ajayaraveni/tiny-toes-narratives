@@ -89,10 +89,10 @@ export function LuxuryHero() {
           >
             <img
               src={camera.url}
-              alt="Vintage twin-lens camera — TinyToes Photography Studio, Karimnagar"
-              className="w-full h-full object-cover"
+              alt="Vintage rangefinder camera — TinyToes Photography Studio, Karimnagar"
+              className="w-full h-full object-contain object-center bg-cream"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-ivory/40 via-transparent to-transparent md:from-ivory/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ivory/30 via-transparent to-transparent pointer-events-none" />
           </motion.div>
         </div>
       </div>
