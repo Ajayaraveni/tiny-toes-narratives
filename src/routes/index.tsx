@@ -30,7 +30,7 @@ function Home() {
       <LuxuryHero />
 
       {/* MATERNITY STORYTELLING */}
-      <section id="story" className="py-32 md:py-48 bg-ivory">
+      <section id="story" className="py-20 md:py-28 bg-ivory">
         <div className="container-luxe grid md:grid-cols-2 gap-16 md:gap-24 items-center">
           <motion.div {...fadeUp} className="relative">
             <div className="aspect-[3/4] overflow-hidden bg-cream relative">
@@ -55,7 +55,7 @@ function Home() {
       </section>
 
       {/* NEWBORN REVEAL */}
-      <section className="relative py-32 md:py-44 bg-gradient-to-b from-ivory to-cream overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-gradient-to-b from-ivory to-cream overflow-hidden">
         <div className="container-luxe">
           <motion.div {...fadeUp} className="text-center max-w-3xl mx-auto mb-20">
             <p className="eyebrow mb-6">Chapter Two · Arrival</p>
@@ -74,7 +74,7 @@ function Home() {
       </section>
 
       {/* TINY FINGERS COLLAGE */}
-      <section className="py-32 md:py-44 bg-ivory">
+      <section className="py-20 md:py-28 bg-ivory">
         <div className="container-luxe">
           <motion.div {...fadeUp} className="text-center mb-16">
             <p className="eyebrow mb-6">Chapter Three · Wonder</p>
@@ -101,7 +101,7 @@ function Home() {
       </section>
 
       {/* SERVICES */}
-      <section className="py-32 md:py-44 bg-cream">
+      <section className="py-20 md:py-28 bg-cream">
         <div className="container-luxe">
           <motion.div {...fadeUp} className="text-center mb-20">
             <p className="eyebrow mb-6">The Collections</p>
@@ -142,7 +142,7 @@ function Home() {
       </section>
 
       {/* FOUNDER */}
-      <section className="py-32 md:py-44 bg-ivory">
+      <section className="py-20 md:py-28 bg-ivory">
         <div className="container-luxe grid md:grid-cols-[1fr_1.3fr] gap-16 md:gap-24 items-center">
           <motion.div {...fadeUp} className="relative">
             <div className="aspect-[3/4] bg-cream border border-border relative overflow-hidden flex items-center justify-center">
@@ -180,7 +180,7 @@ function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="py-32 md:py-44 bg-cream">
+      <section className="py-20 md:py-28 bg-cream">
         <div className="container-luxe">
           <motion.div {...fadeUp} className="text-center mb-20">
             <p className="eyebrow mb-6">Whispered with gratitude</p>
@@ -214,7 +214,7 @@ function Home() {
       </section>
 
       {/* EDITORIAL GALLERY PREVIEW */}
-      <section className="py-32 md:py-44 bg-ivory">
+      <section className="py-20 md:py-28 bg-ivory">
         <div className="container-luxe">
           <motion.div {...fadeUp} className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
             <div>

@@ -65,7 +65,7 @@ function Services() {
       </section>
 
       {services.map((s, i) => (
-        <section key={s.key} className={`py-24 md:py-32 ${i % 2 ? "bg-cream" : "bg-ivory"}`}>
+        <section key={s.key} className={`py-16 md:py-24 ${i % 2 ? "bg-cream" : "bg-ivory"}`}>
           <div className={`container-luxe grid md:grid-cols-2 gap-12 md:gap-20 items-center ${i % 2 ? "md:[&>div:first-child]:order-2" : ""}`}>
             <motion.div {...fade} className="aspect-[4/5] overflow-hidden">
               <img src={s.img} alt={s.title} className="w-full h-full object-cover" loading="lazy" />

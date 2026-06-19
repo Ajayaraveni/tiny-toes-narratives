@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import camera from "@/assets/hero-camera.jpg.asset.json";
+import camera from "@/assets/hero-camera-v2.jpg.asset.json";
 
 /**
  * Premium editorial split-screen hero.
@@ -11,10 +11,10 @@ import camera from "@/assets/hero-camera.jpg.asset.json";
 export function LuxuryHero() {
   const ease = [0.2, 0.7, 0.2, 1] as const;
   return (
-    <section className="relative min-h-screen bg-ivory pt-28 md:pt-32 overflow-hidden">
-      <div className="grid md:grid-cols-[1.05fr_1fr] min-h-[calc(100vh-7rem)] items-stretch">
+    <section className="relative bg-ivory pt-24 md:pt-28 overflow-hidden">
+      <div className="grid md:grid-cols-[1.05fr_1fr] min-h-[78vh] md:min-h-[82vh] items-stretch">
         {/* LEFT — Editorial copy */}
-        <div className="relative flex items-center px-6 md:px-16 lg:px-24 py-16 md:py-24">
+        <div className="relative flex items-center px-6 md:px-12 lg:px-20 py-12 md:py-16">
           <span
             aria-hidden
             className="absolute -left-6 top-10 font-display italic text-[10rem] md:text-[14rem] text-rosegold/10 select-none leading-none"
@@ -49,7 +49,7 @@ export function LuxuryHero() {
               initial={{ opacity: 0, scaleX: 0 }}
               animate={{ opacity: 1, scaleX: 1 }}
               transition={{ duration: 1, ease, delay: 0.45 }}
-              className="hairline w-32 origin-left my-10"
+              className="hairline w-32 origin-left my-7"
             />
 
             <motion.p
@@ -66,7 +66,7 @@ export function LuxuryHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease, delay: 0.7 }}
-              className="mt-12 flex flex-wrap gap-4 items-center"
+              className="mt-9 flex flex-wrap gap-4 items-center"
             >
               <a href="#story" className="btn-luxe group">
                 Begin The Journey
@@ -80,7 +80,7 @@ export function LuxuryHero() {
         </div>
 
         {/* RIGHT — Vintage camera still life */}
-        <div className="relative h-[60vh] md:h-auto">
+        <div className="relative h-[50vh] md:h-auto">
           <motion.div
             initial={{ opacity: 0, scale: 1.08 }}
             animate={{ opacity: 1, scale: 1 }}
