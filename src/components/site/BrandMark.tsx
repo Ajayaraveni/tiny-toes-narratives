@@ -1,17 +1,27 @@
-import logo from "@/assets/tinytoes-logo-v2.png.asset.json";
+import logo from "@/assets/tinytoes-logo-v3.png.asset.json";
 
 /**
- * TinyToes brand mark — uses the official uploaded logo.
- * mix-blend-multiply removes the logo's white background visually
- * against the site's ivory / cream surfaces, keeping perfect brand fidelity.
+ * TinyToes brand mark — official transparent logo.
+ * Sized larger to feel like a luxury brand mark rather than a small icon.
  */
-export function BrandMark({ className = "", size = "md" }: { className?: string; size?: "sm" | "md" | "lg" }) {
-  const h = size === "lg" ? "h-20 md:h-24" : size === "sm" ? "h-10" : "h-12 md:h-14";
+export function BrandMark({
+  className = "",
+  size = "md",
+}: {
+  className?: string;
+  size?: "sm" | "md" | "lg";
+}) {
+  const h =
+    size === "lg"
+      ? "h-28 md:h-36"
+      : size === "sm"
+      ? "h-14 md:h-16"
+      : "h-16 md:h-20";
   return (
     <img
       src={logo.url}
       alt="Tiny Toes Photography Studio"
-      className={`${h} w-auto object-contain mix-blend-multiply select-none ${className}`}
+      className={`${h} w-auto object-contain select-none ${className}`}
       draggable={false}
     />
   );

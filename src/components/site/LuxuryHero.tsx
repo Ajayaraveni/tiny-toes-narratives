@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import camera from "@/assets/hero-camera.jpg.asset.json";
+import camera from "@/assets/hero-camera-v2.jpg.asset.json";
 
 /**
  * Premium editorial split-screen hero.
