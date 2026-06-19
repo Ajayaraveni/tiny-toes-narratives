@@ -45,8 +45,7 @@ function About() {
               <div className="w-28 h-28 rounded-full bg-gradient-rosegold mx-auto mb-8 flex items-center justify-center text-ivory font-display text-5xl shadow-luxe">MK</div>
               <p className="font-script text-4xl text-rosegold-deep mb-2">Mounika Konda</p>
               <p className="eyebrow">Founder · Photographer</p>
-              <p className="hairline w-12 mx-auto my-6" />
-              <p className="text-[0.65rem] text-muted-foreground tracking-[0.3em] uppercase">Portrait coming soon</p>
+              <p className="hairline w-12 mx-auto mt-6" />
             </div>
           </motion.div>
           <motion.div {...fade}>

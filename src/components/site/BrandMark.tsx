@@ -1,8 +1,8 @@
-import logo from "@/assets/tinytoes-logo-v3.png.asset.json";
+import logo from "@/assets/tinytoes-logo-v4.png.asset.json";
 
 /**
- * TinyToes brand mark — official transparent logo.
- * Sized larger to feel like a luxury brand mark rather than a small icon.
+ * TinyToes brand mark — transparent logo (white background removed).
+ * No container, no box — appears as a true brand identity.
  */
 export function BrandMark({
   className = "",
@@ -13,14 +13,14 @@ export function BrandMark({
 }) {
   const h =
     size === "lg"
-      ? "h-28 md:h-36"
+      ? "h-36 md:h-48"
       : size === "sm"
-      ? "h-14 md:h-16"
-      : "h-16 md:h-20";
+      ? "h-20 md:h-24"
+      : "h-24 md:h-28";
   return (
     <img
       src={logo.url}
-      alt="Tiny Toes Photography Studio"
+      alt="Tiny Toes Photography"
       className={`${h} w-auto object-contain select-none ${className}`}
       draggable={false}
     />
