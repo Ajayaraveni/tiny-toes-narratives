@@ -87,7 +87,7 @@ function Contact() {
                 <span className="w-11 h-11 border border-rosegold flex items-center justify-center group-hover:bg-rosegold transition-colors"><Instagram className="w-4 h-4 text-rosegold-deep group-hover:text-ivory" /></span>
                 <span><span className="eyebrow block">Instagram</span><span className="font-light">@tinytoesphotographystudio</span></span>
               </a>
-              <a href="https://maps.google.com/?q=Raghavendra+Nagar+Karimnagar+Telangana" target="_blank" rel="noreferrer" className="flex items-center gap-4 group">
+              <a href="https://www.google.com/maps/search/?api=1&query=TinyToes+Photography+Studio+8-5-357%2FA+Raghavendra+Nagar+Karimnagar+Telangana+505001" target="_blank" rel="noreferrer" className="flex items-center gap-4 group">
                 <span className="w-11 h-11 border border-rosegold flex items-center justify-center group-hover:bg-rosegold transition-colors"><MapPin className="w-4 h-4 text-rosegold-deep group-hover:text-ivory" /></span>
                 <span><span className="eyebrow block">Visit</span><span className="font-light">View on Google Maps</span></span>
               </a>
@@ -108,7 +108,7 @@ function Contact() {
           <div className="aspect-[16/8] overflow-hidden border border-border">
             <iframe
               title="TinyToes Studio Location"
-              src="https://www.google.com/maps?q=Raghavendra+Nagar+Karimnagar+Telangana+505001&output=embed"
+              src="https://www.google.com/maps?q=TinyToes+Photography+Studio,+8-5-357%2FA,+Raghavendra+Nagar,+Karimnagar,+Telangana+505001&output=embed"
               className="w-full h-full grayscale-[40%] contrast-[0.95]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
