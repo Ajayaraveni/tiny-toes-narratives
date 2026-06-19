@@ -80,7 +80,7 @@ export function LuxuryHero() {
         </div>
 
         {/* RIGHT — Vintage camera still life */}
-        <div className="relative h-[60vh] md:h-auto">
+        <div className="relative h-[50vh] md:h-auto">
           <motion.div
             initial={{ opacity: 0, scale: 1.08 }}
             animate={{ opacity: 1, scale: 1 }}
