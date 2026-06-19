@@ -19,28 +19,28 @@ export const Route = createFileRoute("/services")({
 const services = [
   {
     key: "newborn", title: "Newborn Photography", img: images.newborn4.url,
-    blurb: "Within the first fourteen days, when sleep is deepest and curls are tightest — we create heirloom portraits in wraps, baskets and props styled to perfection.",
-    benefits: ["Certified safety handling", "Studio warmed to 28°C", "All wraps & props included", "20–30 fully retouched images"],
+    blurb: "An unhurried, gentle session designed around your baby — captured in the tender first days when sleep is deepest and every detail feels like a wonder.",
+    benefits: ["Calm, baby-led pace", "Safe, nurturing studio environment", "Timeless, heirloom-quality portraits", "Personal, attentive experience"],
   },
   {
     key: "maternity", title: "Maternity Photography", img: images.maternity3.url,
-    blurb: "Editorial portraiture honouring the radiance of motherhood. From flowing fabrics to traditional silks, every frame celebrates the woman you are becoming.",
-    benefits: ["Curated couture gowns", "Hair & makeup on request", "Studio + outdoor options", "Couple portraits included"],
+    blurb: "Editorial portraiture honouring the radiance of motherhood — soft light, considered styling and frames that celebrate the woman you are becoming.",
+    benefits: ["Editorial, magazine-style direction", "Comfortable, welcoming studio", "Beautifully styled compositions", "Couple portraits welcome"],
   },
   {
     key: "milestone", title: "Baby Milestone Sessions", img: images.newborn1.url,
-    blurb: "3, 6, 9 and 12-month sessions designed around your baby's personality. Whimsical themes, custom sets, and joy captured one wonder at a time.",
-    benefits: ["Themed concept sets", "Outfit wardrobe included", "Sibling shots welcome", "Curated milestone albums"],
+    blurb: "Capturing the in-between chapters — sitting up, first smiles, first steps. Playful sessions designed around your baby's personality.",
+    benefits: ["Tailored to your baby's stage", "Warm, playful direction", "Thoughtfully styled sets", "Sibling moments welcome"],
   },
   {
     key: "cake", title: "Cake Smash Sessions", img: images.cakesmash1.url,
-    blurb: "The first birthday, captured in colour, laughter and frosting. A bespoke themed set, custom cake design and unscripted joy that lasts a lifetime.",
-    benefits: ["Custom themed backdrop", "Designer smash cake", "Outfit & headband styling", "Splash add-on available"],
+    blurb: "The first birthday, captured in colour, laughter and unscripted joy — a celebration session designed to feel like art.",
+    benefits: ["Custom themed setup", "Joyful, child-led atmosphere", "Beautifully styled frames", "A keepsake of a milestone year"],
   },
   {
     key: "family", title: "Family Portraits", img: images.family1.url,
-    blurb: "Heirloom portraits that hold your story together. Multi-generation, sibling and family sessions designed for walls that deserve them.",
-    benefits: ["Up to 6 family members", "Coordinated styling guide", "Studio or location", "Framed art print options"],
+    blurb: "Heirloom portraits that hold your story together — quiet, honest, and made to live on the walls of the people who love you most.",
+    benefits: ["Multi-generation sessions welcome", "Considered styling guidance", "Studio or location options", "Timeless, gallery-worthy portraits"],
   },
 ];
 

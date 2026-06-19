@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Phone, MapPin, MessageCircle } from "lucide-react";
-import logo from "@/assets/tinytoes-logo.png.asset.json";
+import { BrandMark } from "@/components/site/BrandMark";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container-luxe py-20">
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1fr] gap-12">
           <div>
-            <img src={logo.url} alt="TinyToes" className="h-20 w-auto mb-6" />
+            <BrandMark size="lg" className="mb-6" />
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs font-light">
               Preserving life's most precious memories through newborn, maternity and family
               photography in Karimnagar.

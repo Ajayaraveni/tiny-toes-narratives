@@ -36,9 +36,6 @@ function Home() {
             <div className="aspect-[3/4] overflow-hidden bg-cream relative">
               <img src={images.maternity3.url} alt="Maternity portrait" className="w-full h-full object-cover" loading="lazy" />
             </div>
-            <div className="absolute -bottom-6 -right-6 hidden md:flex w-40 h-40 border border-rosegold items-center justify-center">
-              <p className="font-script text-3xl text-rosegold-deep text-center leading-none">since<br />2020</p>
-            </div>
           </motion.div>
           <motion.div {...fadeUp}>
             <p className="eyebrow mb-6">Chapter One · Anticipation</p>
