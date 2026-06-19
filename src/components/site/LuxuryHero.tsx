@@ -11,10 +11,10 @@ import camera from "@/assets/hero-camera-v2.jpg.asset.json";
 export function LuxuryHero() {
   const ease = [0.2, 0.7, 0.2, 1] as const;
   return (
-    <section className="relative min-h-screen bg-ivory pt-28 md:pt-32 overflow-hidden">
-      <div className="grid md:grid-cols-[1.05fr_1fr] min-h-[calc(100vh-7rem)] items-stretch">
+    <section className="relative bg-ivory pt-24 md:pt-28 overflow-hidden">
+      <div className="grid md:grid-cols-[1.05fr_1fr] min-h-[78vh] md:min-h-[82vh] items-stretch">
         {/* LEFT — Editorial copy */}
-        <div className="relative flex items-center px-6 md:px-16 lg:px-24 py-16 md:py-24">
+        <div className="relative flex items-center px-6 md:px-12 lg:px-20 py-12 md:py-16">
           <span
             aria-hidden
             className="absolute -left-6 top-10 font-display italic text-[10rem] md:text-[14rem] text-rosegold/10 select-none leading-none"
