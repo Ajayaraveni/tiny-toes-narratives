@@ -49,7 +49,7 @@ export function LuxuryHero() {
               initial={{ opacity: 0, scaleX: 0 }}
               animate={{ opacity: 1, scaleX: 1 }}
               transition={{ duration: 1, ease, delay: 0.45 }}
-              className="hairline w-32 origin-left my-10"
+              className="hairline w-32 origin-left my-7"
             />
 
             <motion.p
@@ -66,7 +66,7 @@ export function LuxuryHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease, delay: 0.7 }}
-              className="mt-12 flex flex-wrap gap-4 items-center"
+              className="mt-9 flex flex-wrap gap-4 items-center"
             >
               <a href="#story" className="btn-luxe group">
                 Begin The Journey
