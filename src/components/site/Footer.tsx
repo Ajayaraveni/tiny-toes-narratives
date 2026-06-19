@@ -5,7 +5,7 @@ import { BrandMark } from "@/components/site/BrandMark";
 export function Footer() {
   return (
     <footer className="bg-cream border-t border-border/60 mt-20">
-      <div className="container-luxe py-20">
+      <div className="container-luxe py-14">
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1fr] gap-12">
           <div>
             <BrandMark size="lg" className="mb-6" />
